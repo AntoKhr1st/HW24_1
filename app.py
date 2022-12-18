@@ -1,6 +1,6 @@
 from flask import Flask
 
-from lesson23_project_source.views import main_bp
+from HW23.views import main_bp
 
 
 def create_app() -> Flask:

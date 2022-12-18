@@ -1,6 +1,6 @@
 from marshmallow import Schema, fields, ValidationError, validates_schema
 
-VALID_CMD = ('filter', 'map', 'unique', 'sort', 'limit')
+VALID_CMD = ('filter', 'map', 'unique', 'sort', 'limit', 'regex')
 
 
 class RequestParams(Schema):

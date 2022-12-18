@@ -1,8 +1,8 @@
 from flask import request, jsonify, Blueprint
 from marshmallow import ValidationError
 
-from lesson23_project_source.builder import query_builder
-from lesson23_project_source.models import RequestParams, BatchRequestParams
+from HW23.builder import query_builder
+from HW23.models import RequestParams, BatchRequestParams
 
 main_bp = Blueprint('main', __name__)
 

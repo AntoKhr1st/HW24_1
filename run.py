@@ -1,4 +1,4 @@
-from lesson23_project_source.app import create_app
+from HW23.app import create_app
 
 if __name__ == '__main__':
     app = create_app()
